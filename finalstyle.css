@@ -1,4 +1,7 @@
 /* Example followed from: http://www.w3schools.com/html/html_layout.asp */
+html, body{
+  height:100%;
+}
 
 h1, h2, h3, h4, h5, h6, th {
     font-family: 'Corben', Georgia, Times, serif;
@@ -21,6 +24,10 @@ p, div, td {
     width:100px;
     float:left;
     padding:5px; 
+}
+
+#publicTable {
+    margin-left: 100px;
 }
 
 #foot {

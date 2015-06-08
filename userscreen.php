@@ -146,8 +146,8 @@ function funcDisplayPublicDestination($mysqli) {
 
 	echo '	<br>
 			<br>
-			<h3>Public Destination Bucket List</h3>
-			<table>
+			<h3 id="publicTable">Public Destination Bucket List</h3>
+			<table id="publicTable">
 				<tr>
 					<th>Username</th>
 					<th>Location</th>
